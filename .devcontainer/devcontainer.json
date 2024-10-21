@@ -1,10 +1,7 @@
 {
 	"name": "Rust",
 	"build": {
-		"dockerfile": "Dockerfile",
-		"args": {
-			"VARIANT": "bookworm"
-		}
+		"dockerfile": "Dockerfile"
 	},
 	"customizations": {
 		"vscode": {

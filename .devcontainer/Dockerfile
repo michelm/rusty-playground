@@ -1,5 +1,4 @@
-ARG VARIANT=bookworm
-FROM mcr.microsoft.com/vscode/devcontainers/rust:${VARIANT}
+FROM mcr.microsoft.com/vscode/devcontainers/rust:bookworm
 
 # Improve lld linker to improve build times either by setting the following
 # environment variable:
